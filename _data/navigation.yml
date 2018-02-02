@@ -10,6 +10,8 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title: "Blog"
+    url: /year-archive/
   - title: "Topic One"
     url: /topic-one-introduce/
   - title: "Topic Two"
