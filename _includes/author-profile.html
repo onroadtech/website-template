@@ -168,11 +168,27 @@
           </a>
         </li>
       {% endif %}
+	  
+	  {% if author.csdn %}
+        <li>
+          <a href="http://blog.csdn.net/{{ author.csdn }}" itemprop="sameAs">
+            <i class="fab fa-fw fa-lastfm-square" aria-hidden="true"></i> CSDN
+          </a>
+        </li>
+      {% endif %}
 
       {% if author.dribbble %}
         <li>
           <a href="https://dribbble.com/{{ author.dribbble }}" itemprop="sameAs">
             <i class="fab fa-fw fa-dribbble" aria-hidden="true"></i> Dribbble
+          </a>
+        </li>
+      {% endif %}
+	  
+	  {% if author.jianshu %}
+        <li>
+          <a href="https://www.jianshu.com/u/{{ author.jianshu }}" itemprop="sameAs">
+            <i class="fab fa-fw fa-dribbble" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].jian_shu | default: "Jianshu" }}
           </a>
         </li>
       {% endif %}

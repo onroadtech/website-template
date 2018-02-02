@@ -88,21 +88,23 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Somewhere"
-  email            :
+  email            : onroad_tech@163.com
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
+  jianshu          : bff702394bcf
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : onroadtech
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
+  csdn             : ltwang_tech
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
