@@ -10,3 +10,25 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title: "Topic One"
+    url: /topic-one-introduce/
+  - title: "Topic Two"
+    url: /topic-two-introduce/
+    
+TopicOne:
+  - title: "Topic One"
+    url: /topic-one-introduce/
+    children:
+      - title: "Article One"
+        url: /topic-one-article-one/
+      - title: "Article Two"
+        url: /topic-one-article-two/
+ 
+TopicTwo:
+  - title: "Topic Two"
+    url: /topic-two-introduce/
+    children:
+      - title: "Article One"
+        url: /topic-two-article-one/
+      - title: "Article Two"
+        url: /topic-two-article-two/    
