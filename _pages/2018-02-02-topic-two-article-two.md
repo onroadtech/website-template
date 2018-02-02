@@ -1,18 +1,18 @@
 ---
 layout: single
 title: Article Two
-permalink: /topic-one-article-two/
+permalink: /topic-two-article-two/
 sidebar:
-  nav: TopicOne
+  nav: TopicTwo
 description: Article one page
 excerpt: demo for article one
 keywords: 
-date: 2017-11-11
-datemodified: 2017-11-12
+date: 2018-02-02
+datemodified: 2018-02-02
 toc: true
 ---
 
-Content of article one page.
+Content of article two page.
 
 ## 1. Title One
 
@@ -45,4 +45,3 @@ Content of title two!
 Content of title two!
 
 Content of title two!
-
